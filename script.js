@@ -10,3 +10,9 @@ const preguntas = document.querySelectorAll('.faq-question');
         pregunta.classList.toggle('open');
       });
     });
+const menuIcon = document.getElementById('openMenuBtn');
+  const menu = document.getElementById('menu');
+
+  menuIcon.addEventListener('click', () => {
+    menu.classList.toggle('abierto');
+  });
