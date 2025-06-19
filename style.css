@@ -323,6 +323,7 @@ a:hover {
 
     #menu {
         display: none;
+        z-index: 50;
     }
 
     #menu.abierto {
@@ -330,8 +331,8 @@ a:hover {
         flex-direction: column;
         position: absolute;
         top: 100px;
-        width: 90%;
-        max-width: 400px;
+        width: 100%;
+        max-width: 650px;
         right: 0;
         background-color: #fff;
         padding: 20px;
@@ -365,7 +366,7 @@ a:hover {
         gap: 1.5rem;
     }
 
-   
+
 
     .contact-form {
 
@@ -385,10 +386,12 @@ a:hover {
         flex-direction: column;
 
     }
-.main-section3-text,.main-section1-text{
-    text-align: center;
-}
-   
+
+    .main-section3-text,
+    .main-section1-text {
+        text-align: center;
+    }
+
 
     .main-section4-content {
         height: 100%;
@@ -419,43 +422,51 @@ a:hover {
         }
 
     }
-    .contact-form{
+
+    .contact-form {
         padding: 50px;
         width: 100%;
-        
+
     }
-    .main-section2{
+
+    .main-section2 {
         padding: 30px;
     }
-   
+
 }
+
 @media (max-width: 660px) {
-  footer ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
+    footer{
+        ul{
+            flex-direction: column;
+            margin-bottom: 10px;
+        }
+    }
 }
+
 header.active {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-  z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    z-index: 1000;
 }
-main.active{
+
+main.active {
     margin-top: 100px;
 }
+
+
 @media (max-width: 400px) {
-    .contact-form{
-padding: 25px;
-    button{
-        margin-top: 0;
+    .contact-form {
+        padding: 25px;
+
+        button {
+            margin-top: 0;
+        }
     }
-    }
-   
+
 }
