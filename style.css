@@ -421,10 +421,13 @@ a:hover {
     }
     .contact-form{
         padding: 50px;
+        width: 100%;
+        
     }
     .main-section2{
         padding: 30px;
     }
+   
 }
 @media (max-width: 660px) {
   footer ul{
@@ -446,4 +449,13 @@ header.active {
 }
 main.active{
     margin-top: 100px;
+}
+@media (max-width: 400px) {
+    .contact-form{
+padding: 25px;
+    button{
+        margin-top: 0;
+    }
+    }
+   
 }
