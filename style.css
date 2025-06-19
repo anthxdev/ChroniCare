@@ -385,7 +385,9 @@ a:hover {
         flex-direction: column;
 
     }
-
+.main-section3-text,.main-section1-text{
+    text-align: center;
+}
    
 
     .main-section4-content {
