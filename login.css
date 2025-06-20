@@ -10,15 +10,17 @@ body {
     display: flex;
     flex-direction: column;
 
-    
+
 
     min-height: 100vh;
 
 }
+
 main {
-        padding: 30px;
-    }
-    main.active {
+    padding: 30px;
+}
+
+main.active {
     margin-top: 200px;
 }
 
@@ -219,13 +221,48 @@ main {
     transform: translateX(200%);
 }
 
-footer{
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-@media (max-width: 660px) {
-    footer{
-        position:relative
+
+@media (max-width: 1600px) {
+    footer {
+        position: relative;
+    }
+}
+
+@media (max-width: 600px) {
+    .social-icons {
+        display: flex;
+
+    }
+}
+
+@media (max-width: 616px) {
+    .social-icons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .container {}
+
+    .form-container {
+        padding: 0;
+        margin: 0;
+    }
+
+    .container .form-container form {
+        width: 80%;
+        margin: auto;
+        padding: 0;
+        h1{
+            text-align: center;
+        }
+        span{
+            display: none;
+        }
     }
 }
