@@ -8,9 +8,9 @@
 
 /* HEADER */
 header {
-    color: white;
     padding: 15px 40px;
     text-align: center;
+    background-color: white;
 }
 
 header div {
