@@ -31,3 +31,4 @@ const menuIcon = document.getElementById('openMenuBtn');
     main.classList.remove('active');
   }
 });
+
